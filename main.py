@@ -394,5 +394,5 @@ output_scroll = ttk.Scrollbar(output_frame, orient=tk.VERTICAL, command=output_t
 output_scroll.pack(side=tk.RIGHT, fill=tk.Y)
 output_text.config(yscrollcommand=output_scroll.set)
 
-# Start the Application
+
 root.mainloop()
